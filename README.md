@@ -1,6 +1,8 @@
 # coderbyte_challenges
 Coderbyte StringChallenge Hard Alphabet Run Encryption PHP
 
+Test link: https://onlinephp.io/c/c9574
+
 Description challenge:
 
 Have the AlphabetRunEncryption( str ) function read the passed str parameter, which will be an encrypted string, and your program should output the original decrypted string. The encryption used is as follows: For each character i in str up to the last but one character, take the characters i and i+1 and encode them by writing the letters of the alphabet, in order, that go in the same direction between those chosen characters. For example: if the original string was bo then it would be encoded as cdefghijklmn , but if the string were boa then bo would be encoded as cdefghijklmn and oa would be encoded as nmlkjihgfedcb and the final encrypted string is cdefghijklmnnmlkjihgfedcb . So str can be something like the encrypted string you just wrote, and your program should decrypt it and output the original message. The input string will only contain lowercase characters (a...z). There are also three important rules for this cipher based on specific character sequences. 1) If the original string contains only one letter between two chosen characters, like the string ac , then it would be encoded as bR with R representing which direction in the alphabet to go to determine the original characters. The encrypted string bR represents ac but the encrypted string bL represents ca (R = right, L = left).
